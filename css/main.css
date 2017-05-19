@@ -1,0 +1,75 @@
+body {
+}
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    color: #616161;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+p.description {
+    font-weight: 300;
+    color: #616161;
+    font-size: 20px;
+    line-height: 30px;
+}
+.navbar-wrapper {
+  color: black;
+}
+.navbar-inverse {
+    border: none;
+}
+.jumbotron {
+  margin-bottom:0;
+  color: white;
+    background-color: #222;
+}
+pre {
+background-color: #222;
+border: none;
+color: white;
+}
+.jumbotron .glyphicon {
+color: #ff6760;
+}
+footer {
+    background-color: #222;
+    color: white;
+}
+div.carousel {
+  margin-bottom: 50px;
+}
+.features .glyphicon {
+font-size: 48px;
+color: grey;
+}
+a {
+  color: black;
+}
+.img {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.why_we {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.why {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  margin-bottom: 10em;
+}
+.assembling-img {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.nav > li > a:hover {
+  background-color: transparent;
+}
