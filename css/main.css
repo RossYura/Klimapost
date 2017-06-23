@@ -168,5 +168,12 @@ li.nav-link > a:hover {
 }
 .span12 {
   border: 0px;
-  padding: 5px;
+  padding: 5px 30px;
+}
+.span13 {
+  border: 0px;
+  padding: 5px 25px;
+}
+.reviews {
+  margin-bottom: 50px;
 }
