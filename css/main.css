@@ -39,6 +39,7 @@ footer {
     background-color: #222;
     color: white;
     padding-top: 55px;
+    margin-top: 140px;
 }
 div.carousel {
   margin-bottom: 50px;
@@ -264,7 +265,7 @@ textarea::placeholder {
 }
 .main_name {
   font-size: 151px;
-  top: 200px;
+  top: 100px;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -272,7 +273,7 @@ textarea::placeholder {
 .main_desc {
   letter-spacing: .5px;
   font-size: 55px;
-  top: 385px;
+  top: 285px;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -295,4 +296,6 @@ textarea::placeholder {
 }
 .systems {
   margin-top: 55px;
+}
+.main-img {
 }
