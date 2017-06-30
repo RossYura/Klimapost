@@ -269,6 +269,7 @@ textarea::placeholder {
   position: absolute;
   text-align: center;
   width: 100%;
+  font-weight: 600;
 }
 .main_desc {
   letter-spacing: .5px;
@@ -277,10 +278,10 @@ textarea::placeholder {
   position: absolute;
   text-align: center;
   width: 100%;
-
+  font-weight: 600;
 }
 .grey_text {
-  color: #737373;
+  color: #E4E4E4;
 }
 .blue_text {
   color: #2D97D8;
