@@ -4,11 +4,17 @@ h1 {
     font-size: 30px;
     line-height: 30px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
     font-weight: 900;
     color: #616161;
     word-spacing: 1px;
     margin-bottom: 20px;
+}
+h3 {
+  font-weight: 600;
+  color: #616161;
+  word-spacing: 1px;
+  margin-bottom: 20px;
 }
 p.description {
     font-weight: 300;
@@ -54,6 +60,9 @@ a {
 .img {
   padding-left: 0px;
   padding-right: 0px;
+}
+.img img {
+  max-height: 580px;
 }
 .why_we {
   margin-top: 90px;
@@ -149,10 +158,9 @@ li.nav-link > a {
   font-size: 13px;
 }
 .about {
-  font-weight: 300;
+  font-weight: 600;
 }
 .photo {
-  margin-left: 45px;
   color: #00baff;
   margin-bottom: 35px;
 }
