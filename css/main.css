@@ -328,5 +328,9 @@ textarea::placeholder {
 .logo_center {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 67px;
+}
+.ch-img {
+  height: 65px;
 }
