@@ -377,27 +377,21 @@
     <div class="col-md-4">
       <div class="span5 contact-form centered">
           <p class="ftr-title">НАПИСАТИ ЛИСТ</p>
-          <form action="mailto:yuraross@gmail.com" method="post" enctype="text/plain">
-              <div class="control-group">
-                  <div class="controls">
-                      <input class="span12" type="text" id="name" name="name" placeholder="Ім'я" />
-                  </div>
-              </div>
-              <div class="control-group">
-                  <div class="controls">
-                      <input class="span12" type="email" name="email" id="email" placeholder="Email" />
-                  </div>
-              </div>
-              <div class="control-group">
-                  <div class="controls">
-                      <textarea class="span13" name="comment" id="comment" placeholder="Повідомлення"></textarea>
-                  </div>
-              </div>
-              <div class="control-group">
-                  <div class="controls">
-                      <button id="send-mail" class="message-btn">НАДІСЛАТИ</button>
-                  </div>
-              </div>
+          <form action="https://formspree.io/yuraross@gmail.com" method="POST">
+            <div class="control-group">
+                <div class="controls">
+                    <input class="span12" type="text" id="name" name="name" placeholder="Ім'я" />
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <input class="span12" type="email" name="_replyto" id="email" placeholder="Email" />
+                </div>
+            <div class="control-group">
+                <div class="controls">
+                    <button id="send-mail" class="message-btn">НАДІСЛАТИ</button>
+                </div>
+            </div>
           </form>
       </div>
     </div>
